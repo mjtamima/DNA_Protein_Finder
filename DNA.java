@@ -16,7 +16,7 @@ class DNA {
             String protein = dna.substring(indexATG, indexTGA + 3);
             System.out.println("Protein found: " + protein);
         } else {
-            System.out.println("No protein...");
+            System.out.println("No protein found!");
         };
     }
 }
